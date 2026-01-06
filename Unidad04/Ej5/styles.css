@@ -1,0 +1,52 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    background-color: white;
+    padding: 15px;
+}
+
+.titulo-principal {
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: slateblue;
+    letter-spacing: 4px;
+}
+
+.texto-largo {
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 2;
+    letter-spacing: 0.5px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.inicio-mayusc {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: orange;
+}
+
+.nota-autor {
+    text-align: left;
+    font-style: italic;
+    font-size: 0.9em;
+    color: greenyellow;
+    margin-top: 15px;
+}
+
+.lista-imagen {
+    list-style-image: url(./photo-1506744038136-46273834b3fb.avif);
+    list-style-position: inside;
+    background-color: white;
+    padding: 15px;
+    border: 1px solid black;
+}
+
+.lista-abreviada {
+    list-style: square outside none;
+    color: blue;
+    font-weight: 600;
+}

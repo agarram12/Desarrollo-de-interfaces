@@ -1,0 +1,44 @@
+.caja {
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid black;
+    font-family: sans-serif;
+    font-weight: bold;
+    width: 60%;
+}
+
+body {
+    background-image: url(./photo-1506744038136-46273834b3fb.avif);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}
+
+.colores-basicos {
+    background-color: red;
+    color: #FFFFFF;
+}
+
+.colores-avanzados {
+    background-color: rgb(0, 100, 255);
+    color: hsl(120, 100%, 60%);
+}
+
+.trasparencia-total {
+    background-color: orange;
+    opacity: 0.5;
+}
+
+.trasparencia-fondo {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+.fondo-patron {
+    background-color: white;
+    background-image: url(./photo-1506744038136-46273834b3fb.avif);
+    background-size: 50px;
+    background-repeat: repeat-x;
+    background-position: bottom left;
+    height: 120pxpx;
+}
