@@ -1,0 +1,10 @@
+.bloque {
+    width: 200px;
+    height: 200px;
+    min-width: 100px;
+    min-height: 100px;
+    max-width: 300px;
+    max-height: 300px;
+    border: 1px solid orange;
+    /* Siempre mantiene los tamaños que le hemos indicado*/
+}

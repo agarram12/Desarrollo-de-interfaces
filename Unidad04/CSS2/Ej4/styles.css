@@ -1,0 +1,10 @@
+.tarjeta {
+    /* background:linear-gradient(blue, purple) */
+    /* background:radial-gradient(blue, yellow); */
+    background: conic-gradient(red, orange, yellow, green, blue);
+    box-shadow: 2px 5px 4px purple;
+}
+
+.tarjeta p, .tarjeta h2 {
+    text-shadow: 2px 2px 3px yellow;
+}
