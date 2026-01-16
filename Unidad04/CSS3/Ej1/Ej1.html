@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Barra de botones con Flexbox</title>
+    <style>
+        .container {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            background-color: #2c3e50;
+            padding: 15px;
+        }
+
+        .item {
+            background-color: #3498db;
+            color: white;
+            padding: 12px 20px;
+            text-align: center;
+            border-radius: 5px;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="item">Guardar</div>
+        <div class="item">Editar</div>
+        <div class="item">Eliminar</div>
+        <div class="item">Cancelar</div>
+    </div>
+
+</body>
+
+</html>
