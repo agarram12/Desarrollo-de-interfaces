@@ -1,0 +1,12 @@
+.caja-transicion {
+    /* ancho fijo hasta que se modifique en el hover */
+    width: 200px;
+}
+
+.caja-transicion:hover {
+    width: 500px;
+    background-color: palegreen;
+    /* Transition y ease junto al retardo (que se añade al final)*/
+    transition: width 2s linear, background-color 2s linear 1s;
+
+}
