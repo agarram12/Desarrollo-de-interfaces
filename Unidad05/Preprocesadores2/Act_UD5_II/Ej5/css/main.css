@@ -1,0 +1,9 @@
+.dashboard {
+  display: flex;
+  flex-direction: row;
+  background-color: #e3f2fd;
+  padding: 20px;
+  min-height: 200px;
+}
+
+/*# sourceMappingURL=main.css.map */
