@@ -1,0 +1,31 @@
+.alert-success {
+  background-color: #28a745;
+  color: #fff;
+  padding: 15px 20px;
+  border-radius: 5px;
+  margin: 10px 0;
+  font-weight: bold;
+  text-align: center;
+}
+
+.alert-error {
+  background-color: #dc3545;
+  color: #fff;
+  padding: 15px 20px;
+  border-radius: 5px;
+  margin: 10px 0;
+  font-weight: bold;
+  text-align: center;
+}
+
+.alert-warning {
+  background-color: #ffc107;
+  color: #fff;
+  padding: 15px 20px;
+  border-radius: 5px;
+  margin: 10px 0;
+  font-weight: bold;
+  text-align: center;
+}
+
+/*# sourceMappingURL=estilos.css.map */

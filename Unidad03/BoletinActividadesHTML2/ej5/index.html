@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>TechMusic Fest</title>
+    <style>
+        body {
+            font-family: Arial;
+        }
+
+        header,
+        footer {
+            background: #333;
+            color: white;
+            padding: 15px;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 5px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>TechMusic Fest</h1>
+        <p>20 Julio 2026 - Madrid</p>
+    </header>
+
+    <nav>
+        <a href="#info">Información</a>
+        <a href="#horarios">Horarios</a>
+        <a href="#entradas">Entradas</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+
+    <main>
+
+        <section id="info">
+            <h2>Información del evento</h2>
+            <p>Festival de música y tecnología único.</p>
+            <ul>
+                <li>Conciertos</li>
+                <li>Conferencias</li>
+                <li>Zona gaming</li>
+            </ul>
+        </section>
+
+        <section id="horarios">
+            <h2>Horarios</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th scope="col">Hora</th>
+                        <th scope="col">Escenario</th>
+                        <th scope="col">Artista</th>
+                        <th scope="col">Duración</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>18:00</td>
+                        <td>Principal</td>
+                        <td>DJ Tech</td>
+                        <td>1h</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="entradas">
+            <h2>Entradas</h2>
+            <form>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre"><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email"><br>
+
+                <label for="cantidad">Cantidad:</label>
+                <input type="number" id="cantidad"><br>
+
+                <select>
+                    <option>General</option>
+                    <option>VIP</option>
+                </select><br>
+
+                <button type="submit">Comprar</button>
+            </form>
+        </section>
+
+    </main>
+
+    <aside>
+        <h3>Artistas destacados</h3>
+        <ul>
+            <li><a href="#">DJ Tech</a></li>
+        </ul>
+    </aside>
+
+    <footer id="contacto">
+        <p>Información legal</p>
+        <p>Contacto: info@festival.com</p>
+        <a href="https://maps.google.com" target="_blank">Ubicación</a>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Servicios Web</title>
+    <style>
+        body {
+            font-family: Arial;
+        }
+
+        header,
+        footer {
+            background: #222;
+            color: white;
+            padding: 10px;
+        }
+
+        section {
+            margin: 20px 0;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 5px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Empresa WebTech</h1>
+        <nav>
+            <a href="#diseno">Diseño Web</a>
+            <a href="#programacion">Programación</a>
+            <a href="#mantenimiento">Mantenimiento</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="diseno">
+            <h2>Diseño Web</h2>
+            <article>
+                <p>Creamos diseños modernos y responsive.</p>
+            </article>
+            <figure>
+            </figure>
+            <ol>
+                <li>Análisis</li>
+                <li>Prototipo</li>
+                <li>Diseño final</li>
+            </ol>
+        </section>
+
+        <section id="programacion">
+            <h2>Programación Web</h2>
+            <article>
+                <p>Desarrollo a medida.</p>
+            </article>
+            <ol>
+                <li>Backend</li>
+                <li>Frontend</li>
+                <li>Testing</li>
+            </ol>
+        </section>
+
+        <section id="mantenimiento">
+            <h2>Mantenimiento</h2>
+            <article>
+                <p>Soporte continuo.</p>
+            </article>
+            <ol>
+                <li>Actualizaciones</li>
+                <li>Seguridad</li>
+                <li>Optimización</li>
+            </ol>
+        </section>
+
+        <h2>Planes</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Plan</th>
+                    <th>Precio</th>
+                    <th>Soporte</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Básico</td>
+                    <td>100€</td>
+                    <td rowspan="2">Email</td>
+                </tr>
+                <tr>
+                    <td>Pro</td>
+                    <td>200€</td>
+                </tr>
+                <tr>
+                    <td>Empresa</td>
+                    <td colspan="2">Personalizado</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3">Precios sin IVA</td>
+                </tr>
+            </tfoot>
+        </table>
+
+        <h2>Contacto</h2>
+        <form method="POST">
+            <input type="text" placeholder="Nombre"><br>
+            <input type="email" placeholder="Email"><br>
+            <input type="radio" name="servicio"> Diseño
+            <input type="radio" name="servicio"> Programación<br>
+            <input type="number" placeholder="Presupuesto"><br>
+            <textarea placeholder="Comentarios"></textarea><br>
+            <input type="submit">
+        </form>
+
+    </main>
+
+    <footer>
+        <a href="#">Política de privacidad</a>
+    </footer>
+
+</body>
+
+</html>

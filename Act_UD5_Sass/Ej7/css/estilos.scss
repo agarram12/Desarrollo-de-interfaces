@@ -1,0 +1,22 @@
+$font-family: 'Arial, sans-serif';
+$font-size-h1: 32px;
+$font-size-h2: 24px;
+$font-size-p: 16px;
+
+@mixin text-style($size, $family) {
+  font-size: $size;
+  font-family: $family;
+  margin: 10px 0;
+}
+
+.title {
+  @include text-style($font-size-h1, $font-family);
+}
+
+.subtitle {
+  @include text-style($font-size-h2, $font-family);
+}
+
+.text {
+  @include text-style($font-size-p, $font-family);
+}

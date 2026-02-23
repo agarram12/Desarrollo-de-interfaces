@@ -1,0 +1,126 @@
+nav {
+  background-color: #2c3e50;
+  padding: 15px;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+nav ul li + li {
+  margin-left: 15px;
+}
+nav ul li a {
+  color: #fff;
+  font-weight: bold;
+}
+nav ul li a:hover {
+  color: #f1c40f;
+  text-decoration: underline;
+}
+
+.card-small {
+  height: 150px;
+  padding: 20px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-medium {
+  height: 200px;
+  padding: 20px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-large {
+  height: 250px;
+  padding: 20px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-basic {
+  background-color: #bdc3c7;
+}
+
+.card-premium {
+  background-color: #f1c40f;
+}
+
+.card-vip {
+  background-color: #9b59b6;
+}
+
+.btn-primary {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.btn-primary:hover {
+  background-color: rgb(33.1380753138, 125.1882845188, 186.8619246862);
+}
+
+.btn-success {
+  background-color: #2ecc71;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.btn-success:hover {
+  background-color: rgb(36.616, 162.384, 89.948);
+}
+
+.alert-success {
+  background-color: #2ecc71;
+  color: #fff;
+  padding: 15px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.alert-error {
+  background-color: #e74c3c;
+  color: #fff;
+  padding: 15px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+body {
+  background-color: #f5f5f5;
+  color: #333;
+}
+body a {
+  color: #3498db;
+  text-decoration: none;
+}
+body {
+  font-family: "Arial, sans-serif";
+  font-size: 16px;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.card, .alert, button {
+  font-family: "Arial, sans-serif";
+  font-size: 16px;
+  color: #333;
+}
+
+/*# sourceMappingURL=estilos.css.map */

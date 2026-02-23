@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Panel de Estadísticas</title>
+    <style>
+        body {
+            font-family: Arial;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 5px;
+        }
+
+        thead {
+            background: #ccc;
+        }
+
+        tfoot {
+            background: #eee;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Estadísticas de Alumnos</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th scope="col">Curso</th>
+                <th scope="col">Alumnos</th>
+                <th scope="col">Media</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">DAW</th>
+                <td rowspan="2">25</td>
+                <td>7.5</td>
+            </tr>
+            <tr>
+                <th scope="row">ASIR</th>
+                <td>8</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2">Media total</td>
+                <td>7.75</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <a href="#formulario">Ir al formulario</a> |
+    <a href="https://www.w3.org/" target="_blank">W3C</a>
+
+    <figure>
+        <figcaption>Logo del Instituto</figcaption>
+    </figure>
+
+    <h2 id="formulario">Registro</h2>
+
+    <form method="POST">
+        <label>Nombre: <input type="text" name="nombre"></label><br>
+        <label>Apellidos: <input type="text" name="apellidos"></label><br>
+        <label>Email: <input type="email" name="email"></label><br>
+        <label>Curso:
+            <select name="curso">
+                <option>DAW</option>
+                <option>ASIR</option>
+            </select>
+        </label><br>
+        <label><input type="checkbox"> Acepto política de datos</label><br>
+        <input type="submit" value="Enviar">
+    </form>
+
+</body>
+
+</html>
