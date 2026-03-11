@@ -1,0 +1,54 @@
+@bg-light: #ffffff;
+@text-light: #000000;
+
+@bg-dark: #1e1e1e;
+@text-dark: #f5f5f5;
+
+@sidebar-width: 250px;
+
+body {
+  background-color: @bg-light;
+  color: @text-light;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  padding: 15px;
+  background: #ddd;
+}
+
+.content {
+  display: flex;
+}
+
+.sidebar {
+  width: @sidebar-width;
+  background: #f0f0f0;
+  padding: 20px;
+}
+
+.main-panel {
+  width: calc(100% - @sidebar-width);
+  padding: 20px;
+}
+
+.dark-theme {
+  background-color: @bg-dark;
+  color: @text-dark;
+}
+
+.dark-theme .navbar {
+  background-color: darken(@bg-dark, 5%);
+  color: @text-dark;
+}
+
+.dark-theme .sidebar {
+  background-color: darken(@bg-dark, 10%);
+  color: @text-dark;
+}
+
+.dark-theme .main-panel {
+  background-color: @bg-dark;
+  color: @text-dark;
+}

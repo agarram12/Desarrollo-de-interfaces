@@ -1,0 +1,28 @@
+@avatar-size: 100px;
+@role-color: #7f8c8d;
+
+.redondear(@radio) {
+  border-radius: @radio;
+}
+
+.employee-profile {
+  text-align: center;
+}
+
+.avatar {
+  width: @avatar-size;
+  height: @avatar-size;
+  .redondear(50%);
+}
+
+.name {
+  font-size: 20px;
+}
+
+.role {
+  color: @role-color;
+}
+
+.employee-profile:hover .name {
+  font-size: 20px + 2px;
+}

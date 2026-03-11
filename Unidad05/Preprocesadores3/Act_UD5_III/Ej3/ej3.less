@@ -1,0 +1,47 @@
+@color-basic: #3498db;
+@color-pro: #2ecc71;
+@color-enterprise: #9b59b6;
+
+@border-normal: 2px;
+@border-pro: 4px;
+
+@font-plan-name: 20px;
+
+.formato-plan(@color-plan, @border-width: @border-normal) {
+  padding: 20px;
+  text-align: center;
+  border: @border-width solid @color-plan;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.pricing {
+  display: flex;
+  gap: 20px;
+}
+
+.plan {
+  width: 200px;
+
+  h3 {
+    font-size: @font-plan-name;
+    margin-bottom: 10px;
+  }
+
+  p {
+    font-size: @font-plan-name * 1.5;
+    font-weight: bold;
+  }
+}
+
+.basic {
+  .formato-plan(@color-basic);
+}
+
+.pro {
+  .formato-plan(@color-pro, @border-pro);
+}
+
+.enterprise {
+  .formato-plan(@color-enterprise);
+}
